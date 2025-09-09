@@ -1,0 +1,409 @@
+body{
+    background-color: rgb(44, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+
+.navlinks{
+    display: flex;
+    gap: 100px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+#img1{
+    width: 80px;
+    border-radius: 50px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 5px;   
+}
+
+.entrar{
+    background-color: #FFD700;
+    border: 1px solid;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 16px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 12px rgb(3, 3, 3);
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+        
+}
+.entrar a {
+    color: black;
+}
+.entrar:hover a{
+    color: white;
+    
+}
+.entrar:hover{
+    background-color: #c402ff;
+}
+
+.box1{
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#img2{
+    display: block;
+    margin: 20px auto;
+    width: 1400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.textogrande{
+    color: #FFD700;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.caixas{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+.caixa1{
+    
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 70px;
+    color: gray;
+    width: 300px;
+    height:600px;
+
+}
+
+#basico{
+    background-color: rgb(44, 44, 44);
+    border: 1px solid rgb(71, 71, 71);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.textinho{
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.minitextinho{
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 35px;
+    color: #FFD700;
+}
+
+.preços{
+    color: purple;
+}
+
+
+.caixa2{
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 70px;
+    background-color: white;
+    color: gray;
+    
+}
+#intermediario{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border: 1px solid rgb(71, 71, 71);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.caixa3{
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    margin-top: 70px;
+    width: 300px;
+    height: 600px;
+}
+#premium{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    border: 1px solid rgb(71, 71, 71);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.listas{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#nossosplan:hover{
+    text-decoration: underline rgb(22, 22, 22);
+    background-color: #242424;
+    outline: 10px solid #242424;
+    border-radius: 20px;
+}
+#funcionamento:hover{
+    text-decoration: underline rgb(22, 22, 22);
+    background-color: #242424;
+    outline:10px solid #242424;
+    border-radius: 20px;
+}
+#sobre:hover{
+    text-decoration: underline rgb(22, 22, 22);
+    background-color: #242424;
+    outline: 10px solid #242424;
+    border-radius: 20px;
+}
+
+.caixalogin{
+    justify-self: center;
+    margin-top: 100px;
+    background-color: #242424;
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+}
+.email{
+    margin-left: 55px;
+    margin-top: 70px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.email2{
+    border: none;
+    background-color: #3d3d3d;
+    border-radius: 5px ;
+    padding: 5px;
+    width: 500px;
+    height: 25px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+        
+}
+
+.caixa10{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+
+}
+#entrou{
+    color: #FFD700;
+    
+    
+}
+
+#img3{
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    
+}
+
+.email h2,
+.email h4{
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+    font-weight: normal;
+    
+    
+}
+
+#esquecer{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 172, 252);
+
+}
+
+
+.google{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 110px;
+    background-color: #3d3d3d;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+}
+.googlebotao{
+    text-decoration: none;
+    background-color:#3d3d3d;
+    border-radius: 20px;
+    margin-right: 115px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.facebookbotao{
+    text-decoration: none;
+    background-color:#3d3d3d;
+    border-radius: 20px;
+    margin-right: 100px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fab.fa-google{
+    margin-top: 12px;
+    margin-left: 20px;
+    color:#4285F4;
+}
+.fab.fa-facebook-f{
+    margin-top: 12px;
+    margin-left: 20px;
+    color: #4285F4;
+}
+.conta{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.conta a{
+    text-decoration: none;
+    color: rgb(7, 136, 196);
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: #272727;
+    
+    font-size: smaller;
+    height: 350px;
+    width: 100%;
+    
+}
+.footerbox{
+    display: flex;
+    gap: 400px;
+    
+    
+}
+.coluna1{
+    margin-left: 50px;
+
+
+}
+.email3{
+    height: 20px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.coluna1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.numero{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.botaoenviar{
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+
+}
+
+.name{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.botaoenviar2{
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.coluna3{
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.icones{
+    font-size: 20px;
+    
+}
+
+.entrar1{
+    text-align: center;
+    margin-top: 25px;
+    
+
+}
+.entrarbotao{
+    width: 200px;
+    border: none;
+    background-color:#FFD700;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 25px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0);
+}
+
+.entrarbotao a {
+    text-decoration: none;
+    color: black;
+}
+
+.fab.fa-twitter{
+    color: rgb(0, 195, 255);
+}
+.fab.fa-whatsapp{
+    color: rgb(50, 175, 1);
+}
+.fab.fa-linkedin-in{
+    color: rgb(0, 34, 145);
+}
+
+p,h3,h4{
+    color:white;
+}
