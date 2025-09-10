@@ -11,8 +11,17 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+    
 }
-
+#nossosplan{
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+}
+#funcionamento{
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+}
+#sobre{
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+}
 
 .navlinks{
     display: flex;
@@ -23,6 +32,7 @@ nav{
 .nav a{
     text-decoration: none;
     color: white;
+    
     
     
 }
@@ -58,6 +68,7 @@ nav{
 }
 .entrar:hover{
     background-color: #c402ff;
+    transition: 500ms;
 }
 
 .box1{
@@ -78,6 +89,7 @@ nav{
 .textogrande{
     color: #FFD700;
     text-align: center;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
 }
 h1{
     font-size: 50px;
@@ -111,6 +123,7 @@ h3{
     border-top-right-radius: 10px;
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
 }
 .textinho{
     font-size: 25px;
@@ -122,9 +135,16 @@ h3{
     margin-top: 0px;
     font-size: 35px;
     color: #FFD700;
+    display: flex;
+    gap: 6px;
+    text-shadow: 2px 2px 4px rgb(214, 214, 214);
 }
 
 .preços{
+    color: purple;
+}
+.preços2{
+    display: flex;
     color: purple;
 }
 
@@ -145,6 +165,7 @@ h3{
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
 }
 
 .caixa3{
@@ -162,30 +183,33 @@ h3{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
 }
 .listas{
     font-weight: bolder;
     font-size: 20px;
     margin-right: 20px;
+    
+    text-shadow: 2px 2px 4px rgb(192, 192, 192);
 }
 
 #nossosplan:hover{
     text-decoration: underline rgb(22, 22, 22);
     background-color: #242424;
     outline: 10px solid #242424;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 #funcionamento:hover{
     text-decoration: underline rgb(22, 22, 22);
     background-color: #242424;
     outline:10px solid #242424;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 #sobre:hover{
     text-decoration: underline rgb(22, 22, 22);
     background-color: #242424;
     outline: 10px solid #242424;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .caixalogin{
@@ -347,7 +371,12 @@ h3{
 .botaoenviar{
     width: 100px;
     margin-left: 100px;
+    margin-top: 5px;
     margin-bottom: 5px;
+    background-color: #FFD700;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
 
 }
 
@@ -361,6 +390,10 @@ h3{
     margin-top: 30px;
     width: 100px;
     margin-left: 100px;
+    background-color: #FFD700;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
 }
 
 .coluna3{
@@ -407,3 +440,89 @@ h3{
 p,h3,h4{
     color:white;
 }
+
+.inicio{
+    position: relative;
+}
+
+.inicio h2{
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+.inicio a{
+    text-decoration: none;
+    color: white;
+    background-color: #FFD700;
+    padding: 7px 16px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0);
+}
+.inicio a:hover{
+    background-color: #c402ff;
+    transition: 500ms;
+}
+
+
+.informaçoes{
+    padding-top: 120px;
+    margin-left: 300px;
+    display: flex;
+    gap: 50px;
+}
+
+.foto{
+    background-color: rgb(36, 36, 36);
+    width: 590px;
+    height: 200px;
+    border: 10px solid;
+    border-radius: 600px;
+    border-color: #6f0091;
+    
+}
+
+.nome{
+    margin-top: 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+}
+
+.plano{
+    margin-top: -200px;
+    color: white;
+    margin-left: 150px;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+}
+.planobox{
+    margin-top: 30px;
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    height: 250px;
+    width: 800px;
+    margin-left: 150px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+}
+
+.treino{
+    margin-left: 500px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+}
+
+.dieta{
+    font-size: 15px;
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-shadow: 2px 2px 4px rgb(17, 17, 17);
+    
+}
+
+
